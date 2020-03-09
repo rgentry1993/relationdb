@@ -23,7 +23,7 @@ function MyCollection(){
                 const object = doc.data();
                 let item = {
                     name: object.name,
-                    color: object.color,
+                    imageURL: object.imageURL,
                     id:doc.id
                 };
                 newItems.push(item);
@@ -44,7 +44,7 @@ function MyCollection(){
     let myItemsEle = myItems.map((it,idx)=>
         <div key={idx}>
             <Link to={`/itempage/${it.name}`}> <h1>{it.name}</h1> </Link>
-            <div><Card imageurl = "{it.imageURL}"/></div>
+            <img src = {it.imageURL}></img>
         <button onClick={()=>deleteItem(it.id)}>Remove from myCollection</button></div>
     );
 

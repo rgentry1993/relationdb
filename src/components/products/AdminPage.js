@@ -68,7 +68,7 @@ function AdminPage(props){
 
         <div key={idx}>
             <h1>{it.name}</h1>
-            <h2>{it.imageURL}</h2>
+            <img src={it.imageURL}/>
             <button onClick={()=>deleteItem(it.id)}>Remove from Products List</button>
 
         </div>

@@ -33,7 +33,7 @@ function App(props) {
                 const object = doc.data();
                 let item = {
                     name: object.name,
-                    type: object.type,
+                    imageURL: object.imageURL,
                     id:doc.id
                 };
                 newItems.push(item);

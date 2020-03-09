@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61727a55-bbdb-45f5-bfe2-265cf5ae8c6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/about/MyCollection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/firebaseProducts/Collection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/AdminPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/itempage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase/Fire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/setActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/MyCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/MyCollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/firebaseProducts/Collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firebaseProducts/Collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/products/AdminPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/AdminPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +92,7 @@
       <updated>1583278631506</updated>
       <workItem from="1583278635531" duration="5366000" />
       <workItem from="1583517649189" duration="38750000" />
+      <workItem from="1583791583742" duration="4202000" />
     </task>
     <servers />
   </component>

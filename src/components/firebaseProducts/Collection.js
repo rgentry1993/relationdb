@@ -10,7 +10,7 @@ function Collection(props) {
 
 
     const cart = useSelector(state => state.cart);
-    const [items, setItems] = React.useState(cart);
+
     const [load] = React.useState(true);
     const [error] = React.useState(false);
 
@@ -19,18 +19,13 @@ function Collection(props) {
     const dispatch = useDispatch();
 
 
-    React.useEffect(() => {
-
-
-
-        setItems(cart);
-    }, [db, cart]);
 
 
     const addToMyStuff = (it) => {
 
         const newItem = {
             name: it.name,
+            imageURL: it.imageURL
         };
 
 
@@ -40,12 +35,10 @@ function Collection(props) {
         });
     };
 
-    let itemsEle = items.map((it, idx) =>
+    let itemsEle = cart.map((it, idx) =>
 
         <div key={idx}>
             <Link to={`/itempage/${it.name}`}> <h1>{it.name}</h1> </Link>
-            <Card name={it.name} imagesrc = {it.imageURL} color = {it.color}/>
-
             <img src = {it.imageURL}></img>
 
 
